@@ -2,10 +2,8 @@
 
  display :flex;
  flex-wrap: wrap; 
-justify-content: space-between; 
-align-items: space-between;     
-}
 
+}
 
 .master h1 {
 
@@ -14,30 +12,29 @@ width: 100%;
 }
 
 .master div {
+
 float: left ; 
-width:  49%; 
+width:  45%; 
 border: solid 1px; 
 background-color: #87aa74; 
-margin-top: 15px; 
-margin-left: 1Opx;
 }
-
 .master img {
 
 float: left;
-width: 45%; 
-padding: 10px; 
-margin-right: 10px; 
+width: 20%; 
+padding:auto-align ; 
 }
 
 
 .master p {
 
-margin-right: 10% 10%;  
+margin: 10% 10%;  
+padding:auto-align ;
+align-items: flex-end; 
 }
 
 .master h3 {
 color: white; 
-text-transform: uppercase;  
+text-align:right;  
 margin: 5% 5%;    
 }
